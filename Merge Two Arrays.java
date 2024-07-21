@@ -20,7 +20,6 @@ public class MergeTwoArrays {
         int[] mergedArray = new int[n1 + n2];
         System.arraycopy(array1, 0, mergedArray, 0, n1);
         System.arraycopy(array2, 0, mergedArray, n1, n2);
-
         System.out.println("Merged array: " + Arrays.toString(mergedArray));
         scanner.close();
     }
